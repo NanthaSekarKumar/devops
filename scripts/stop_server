@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ -n  'pgrep apache2' ]; then
+    sudo systemctl stop apache2
+fi
