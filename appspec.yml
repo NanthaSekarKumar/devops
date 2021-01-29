@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /carrental
     destination: /var/www/html/
-  - source: /scripts/dir.conf
+  - source: /files
     destination: /etc/apache2/mods-available/
 hooks:
   BeforeInstall:
