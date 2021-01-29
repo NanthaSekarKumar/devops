@@ -1,3 +1,4 @@
 #!/bin/bash
+sudo cp -rvf dir.conf /etc/apache2/mods-enabled/dir.conf
 sudo mysql -u root carrental < /var/www/html/carrental/sqlfile/carrental.sql
 sudo systemctl restart apache2
