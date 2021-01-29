@@ -10,4 +10,3 @@ sudo mysql -u root -e "create user 'carrental'@'localhost' identified by 'Carren
 sudo mysql -u root -e "create database carrental;"
 sudo mysql -u root -e "grant all privileges on carrental.*to'carrental'@'localhost';"
 sudo mysql -u root -e "flush privileges"
-sudo mysql -u root carrental < /var/www/html/carrental/sqlfile/carrental.sql
