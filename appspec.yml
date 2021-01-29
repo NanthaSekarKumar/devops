@@ -3,8 +3,6 @@ os: linux
 files:
   - source: /carrental
     destination: /var/www/html/
-  - source: /files
-    destination: /etc/apache2/mods-available/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
