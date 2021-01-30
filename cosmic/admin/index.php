@@ -172,7 +172,7 @@ session_start();
 $extra="dashboard.php";
 $host=$_SERVER['HTTP_HOST']; 
 $uri=rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
-header("location:https://$host$uri/$extra");
+header("location:http://$host$uri/$extra");
 exit();
 }
 else
